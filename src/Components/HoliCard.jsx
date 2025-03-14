@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 const HoliCard = () => {
     return (
         <div className="relative flex flex-col justify-center items-center min-h-screen bg-gradient-to-r from-pink-400 to-yellow-300">
-            {/* Confetti effect using Tailwind CSS */}
             <div className="absolute inset-0 pointer-events-none flex justify-center items-center overflow-hidden z-0">
                 <div className="w-64 h-64 bg-gradient-to-r from-red-500 to-yellow-500 rounded-full opacity-50 animate-pulse mix-blend-multiply"></div>
                 <div className="w-48 h-48 bg-gradient-to-r from-green-400 to-blue-500 rounded-full opacity-50 animate-bounce mix-blend-multiply"></div>
