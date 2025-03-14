@@ -1,11 +1,16 @@
+import { Routes, Route} from 'react-router-dom'
 import './App.css'
+import AboutMe from './Components/AboutMe'
 import HoliCard from './Components/HoliCard'
 
 function App() {
 
   return (
     <>
-      <HoliCard />
+      <Routes>
+        <Route index element={<HoliCard />} />
+        <Route path='/AboutMe' element={<AboutMe />} />
+      </Routes>
     </>
   )
 }
