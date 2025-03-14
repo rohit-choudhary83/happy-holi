@@ -1,11 +1,11 @@
 import './App.css'
-import AboutMe from './Components/AboutMe'
+import HoliCard from './Components/HoliCard'
 
 function App() {
 
   return (
     <>
-      <AboutMe />
+      <HoliCard />
     </>
   )
 }
